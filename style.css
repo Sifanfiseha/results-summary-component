@@ -141,7 +141,7 @@ body {
 .score span {
     color: var(--Dark-gray-blue);
 }
-button {
+.btn {
     padding: 1rem 2rem;
     background-color: var(--Dark-gray-blue);
     color: var(--White);
@@ -149,8 +149,16 @@ button {
     border: none;
     font-size: 1.2rem;
     font-weight: 600;
+    text-decoration: none;
+    text-align: center;
 }
-button:hover {
+.btn:hover {
+    background: rgb(59, 91, 219);
+    background: linear-gradient(
+        0deg,
+        rgba(59, 91, 219, 1) 0%,
+        rgba(124, 58, 237, 1) 100%
+    );
 }
 .summary h2 {
     font-size: 1.2rem;
