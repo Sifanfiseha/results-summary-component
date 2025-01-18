@@ -35,12 +35,10 @@
 }
 h1 {
     font-size: 1.2rem;
-    color: var(--Light-lavender);
 }
 body {
-    background-color: var(--Pale-blue);
     font-size: 18px;
-    font-family: sans-serif;
+    font-family: "Hanken Grotesk", serif;
     color: var(--Pale-blue);
     display: flex;
     align-items: center;
