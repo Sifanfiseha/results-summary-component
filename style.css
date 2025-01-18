@@ -101,6 +101,12 @@ body {
     flex-direction: column;
     gap: 2rem;
 }
+.result > p {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    gap: 0.8rem;
+}
 .result {
     display: flex;
     align-items: center;
@@ -151,14 +157,15 @@ body {
     font-weight: 600;
     text-decoration: none;
     text-align: center;
+    transition: 0.3s ease;
 }
 .btn:hover {
     background: rgb(59, 91, 219);
-    background: linear-gradient(
+    /* background: linear-gradient(
         0deg,
         rgba(59, 91, 219, 1) 0%,
         rgba(124, 58, 237, 1) 100%
-    );
+    ); */
 }
 .summary h2 {
     font-size: 1.2rem;
